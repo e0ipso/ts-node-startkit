@@ -1,5 +1,5 @@
 {
-  "name": "plaheholder-name",
+  "name": "ts-node-startkit",
   "version": "0.0.1",
   "description": "Lets you update GitHub checks with arbitrary information from the CLI, useful for CI processes.",
   "main": "dist/index.js",
