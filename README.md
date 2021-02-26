@@ -1,6 +1,6 @@
 [![CodeQL](https://github.com/e0ipso/ts-node-startkit/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/e0ipso/ts-node-startkit/actions/workflows/codeql-analysis.yml)
 
-# TypeScript node start kit
+# TypeScript node starter kit
 
 Often times I want to start a TypeScript project from scratch, but I forgot all the tooling I once set up. This leads to
 several hours of catching up on the latest packages and configurations for eslint, prettier, tsconfig, husky, semantic
