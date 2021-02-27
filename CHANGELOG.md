@@ -1,3 +1,11 @@
+## [1.3.1](https://github.com/e0ipso/ts-node-startkit/compare/v1.3.0...v1.3.1) (2021-02-27)
+
+
+### Bug Fixes
+
+* do not use npx for semantic release ([7c1d00a](https://github.com/e0ipso/ts-node-startkit/commit/7c1d00a048b9a76368797331f31e94ed41c8c295))
+* speed CI process by using npx ([61b6d91](https://github.com/e0ipso/ts-node-startkit/commit/61b6d9136409170c1417c748f11ec87f3d3e36b0))
+
 # [1.3.0](https://github.com/e0ipso/ts-node-startkit/compare/v1.2.0...v1.3.0) (2021-02-27)
 
 
