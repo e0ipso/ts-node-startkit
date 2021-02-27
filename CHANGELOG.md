@@ -1,3 +1,17 @@
+# [1.4.0](https://github.com/e0ipso/ts-node-startkit/compare/v1.3.1...v1.4.0) (2021-02-27)
+
+
+### Bug Fixes
+
+* compile the application in CI ([01f16f7](https://github.com/e0ipso/ts-node-startkit/commit/01f16f7107ab6065f08cc7272291e32bfd497e28))
+* revert to yarn 1 ([b5c036d](https://github.com/e0ipso/ts-node-startkit/commit/b5c036d268c1b15470147020df41388591c21fab))
+* revert to yarn 1 in GH actions ([12c26b3](https://github.com/e0ipso/ts-node-startkit/commit/12c26b3457a664f0368927f0d9ada53dd800b0b4))
+
+
+### Features
+
+* add dummy file to allow yarn build ([080dff4](https://github.com/e0ipso/ts-node-startkit/commit/080dff4eef6a3f47e9b242bae1c096ec50bc8b65))
+
 ## [1.3.1](https://github.com/e0ipso/ts-node-startkit/compare/v1.3.0...v1.3.1) (2021-02-27)
 
 
