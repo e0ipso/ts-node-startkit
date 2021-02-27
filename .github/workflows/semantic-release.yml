@@ -5,7 +5,7 @@ on:
     branches: [main]
 
 jobs:
-  publish:
+  prepare:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -20,7 +20,9 @@ jobs:
         env:
           CI: true
   release:
+    runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
       - name: Semantic Release
         if: ${{ success() }}
         run: npx semantic-release
