@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/e0ipso/ts-node-startkit/compare/v1.4.0...v1.4.1) (2021-02-27)
+
+
+### Bug Fixes
+
+* avoid releasing the release folder ([3758038](https://github.com/e0ipso/ts-node-startkit/commit/37580389bb3f83f9cbdcf8b68b7db3e224ef8f3c))
+
 # [1.4.0](https://github.com/e0ipso/ts-node-startkit/compare/v1.3.1...v1.4.0) (2021-02-27)
 
 
