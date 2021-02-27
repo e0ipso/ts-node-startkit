@@ -24,6 +24,8 @@ jobs:
     needs: prepare
     steps:
       - uses: actions/checkout@v2
+      - name: Install package dependencies
+        run: yarn install
       - name: Semantic Release
         if: ${{ success() }}
         run: yarn semantic-release
