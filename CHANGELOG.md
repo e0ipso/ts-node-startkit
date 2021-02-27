@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/e0ipso/ts-node-startkit/compare/v1.2.0...v1.3.0) (2021-02-27)
+
+
+### Features
+
+* leverage Zero-intalls from yarn ([5487a38](https://github.com/e0ipso/ts-node-startkit/commit/5487a389cef6c2c837a47ee9983209bfaa77cd8b))
+
 # [1.2.0](https://github.com/e0ipso/ts-node-startkit/compare/v1.1.0...v1.2.0) (2021-02-27)
 
 
