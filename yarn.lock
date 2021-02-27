@@ -2769,7 +2769,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"conventional-changelog-conventionalcommits@npm:^4.3.1":
+"conventional-changelog-conventionalcommits@npm:^4.3.1, conventional-changelog-conventionalcommits@npm:^4.5.0":
   version: 4.5.0
   resolution: "conventional-changelog-conventionalcommits@npm:4.5.0"
   dependencies:
@@ -4393,6 +4393,7 @@ __metadata:
     "@types/node": ^14.14.31
     "@typescript-eslint/eslint-plugin": ^4.15.2
     "@typescript-eslint/parser": ^4.15.2
+    conventional-changelog-conventionalcommits: ^4.5.0
     eslint: ^7.20.0
     eslint-config-prettier: ^8.1.0
     eslint-plugin-prettier: ^3.3.1
