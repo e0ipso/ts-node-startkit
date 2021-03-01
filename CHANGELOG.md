@@ -1,3 +1,10 @@
+## [1.4.2](https://github.com/e0ipso/ts-node-startkit/compare/v1.4.1...v1.4.2) (2021-03-01)
+
+
+### Bug Fixes
+
+* no need to install husky in a postinstall ([601be82](https://github.com/e0ipso/ts-node-startkit/commit/601be821b3d523e95f22b29253db9a14407e39e6))
+
 ## [1.4.1](https://github.com/e0ipso/ts-node-startkit/compare/v1.4.0...v1.4.1) (2021-02-27)
 
 
