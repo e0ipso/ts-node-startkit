@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/e0ipso/ts-node-startkit/compare/v1.6.0...v1.7.0) (2021-03-01)
+
+
+### Features
+
+* revert Yarn 2 again ([5ef17be](https://github.com/e0ipso/ts-node-startkit/commit/5ef17be5ec2f1fd51deee025f42e80255d83f4b9))
+
 # [1.6.0](https://github.com/e0ipso/ts-node-startkit/compare/v1.5.0...v1.6.0) (2021-03-01)
 
 
