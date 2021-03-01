@@ -33,9 +33,9 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
       - run: yarn install
-      uses: mattallty/jest-github-action@v1
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        CI: true
-      with:
-        test-command: 'yarn test:ci'
+      - uses: mattallty/jest-github-action@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CI: true
+        with:
+          test-command: 'yarn test:ci'
