@@ -10,5 +10,8 @@ const readFileP = promisify(readFile);
  */
 export default async function (): Promise<string> {
   const data = await readFileP(__filename);
+  if (Math.random() > 0.5) {
+    return '';
+  
   return data.toString();
 }
