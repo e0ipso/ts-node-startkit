@@ -8,6 +8,7 @@ const readFileP = promisify(readFile);
  * This is a dummy file that should be deleted in your forked project.
  * The file exists so the CI does not choke on the `tsc` compilation.
  */
-export default async function () {
-  await readFileP(`./dummy.ts`);
+export default async function (): Promise<string> {
+  const data = await readFileP(`./index.ts`);
+  return data.toString();
 }

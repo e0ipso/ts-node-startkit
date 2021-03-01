@@ -2,13 +2,10 @@
   "name": "ts-node-startkit",
   "version": "1.4.2",
   "description": "Lets you update GitHub checks with arbitrary information from the CLI, useful for CI processes.",
-  "main": "build/index.js",
-  "bin": {
-    "gh-checks": "./build/cli.js"
-  },
+  "main": "src/index.ts",
   "scripts": {
     "start": "gh-checks",
-    "build": "tsc --pretty",
+    "build": "webpack --mode production",
     "test": "jest --passWithNoTests",
     "test:ci": "yarn test --watchAll=false --coverage",
     "lint": "eslint .",
@@ -46,9 +43,11 @@
     "prettier": "^2.2.1",
     "semantic-release": "^17.4.0",
     "ts-jest": "^26.5.2",
-    "ts-node": "^9.1.1"
+    "ts-loader": "^8.0.17",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.2",
+    "webpack": "^5.24.2",
+    "webpack-cli": "^4.5.0"
   },
-  "dependencies": {
-    "typescript": "4.1.5"
-  }
+  "dependencies": {}
 }
