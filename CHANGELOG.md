@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/e0ipso/ts-node-startkit/compare/v1.4.2...v1.5.0) (2021-03-01)
+
+
+### Features
+
+* bundle application using webpack ([81d1dba](https://github.com/e0ipso/ts-node-startkit/commit/81d1dba81e68f540079c7c1e5862f87e939eedb8))
+
 ## [1.4.2](https://github.com/e0ipso/ts-node-startkit/compare/v1.4.1...v1.4.2) (2021-03-01)
 
 
