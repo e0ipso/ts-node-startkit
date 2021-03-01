@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/e0ipso/ts-node-startkit/compare/v1.5.0...v1.6.0) (2021-03-01)
+
+
+### Features
+
+* enable Yarn 2 again ([#4](https://github.com/e0ipso/ts-node-startkit/issues/4)) ([cd0d249](https://github.com/e0ipso/ts-node-startkit/commit/cd0d249ca976ebd0c4a9830a33a34245e90d119c))
+
 # [1.5.0](https://github.com/e0ipso/ts-node-startkit/compare/v1.4.2...v1.5.0) (2021-03-01)
 
 
