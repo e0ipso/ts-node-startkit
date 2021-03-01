@@ -19,3 +19,10 @@ This setup has several features that I like:
 - Semantic release.
 - A nice `tsconfig.json` that I like.
 - ...
+
+### Local development
+
+#### One time setup
+
+After cloning the repository you will need to do the customary `yarn install`. Moreover you need to install the husky
+hooks `husky install`.
