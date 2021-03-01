@@ -15,7 +15,7 @@ This setup has several features that I like:
 - `eslint` and `prettier` playing together.
 - CI integration using GitHub Actions.
 - `jest` configured to play nice with TypeScript.
-- Yarn 2 for package management.
+- ~Yarn 2 for package management.~ It seems that the typescript package is not quite ready for `.pnp.js` yet.
 - Semantic release.
 - A nice `tsconfig.json` that I like.
 - ...
