@@ -9,6 +9,6 @@ const readFileP = promisify(readFile);
  * The file exists so the CI does not choke on the `tsc` compilation.
  */
 export default async function (): Promise<string> {
-  const data = await readFileP(`./index.ts`);
+  const data = await readFileP(__filename);
   return data.toString();
 }
