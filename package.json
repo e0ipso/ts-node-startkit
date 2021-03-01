@@ -4,8 +4,8 @@
   "description": "Lets you update GitHub checks with arbitrary information from the CLI, useful for CI processes.",
   "main": "src/index.ts",
   "scripts": {
-    "start": "gh-checks",
-    "build": "webpack --mode production",
+    "dev": "webpack --mode development --watch --config webpack.config.js",
+    "build": "webpack --mode production --config webpack.config.js",
     "test": "jest --passWithNoTests",
     "test:ci": "yarn test --watchAll=false --coverage",
     "lint": "eslint .",
